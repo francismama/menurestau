@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body class="bg-dark">
+
+    <header class="navbar navbar-expand-lg navbar-light bg-light px-3">
+        <a href="" class="navbar-brand">
+            <p>RestoU</p>
+        </a>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-content">
+               <span class="navbar-toggler-icon"></span>
+        </button>
+        <nav class="collapse navbar-collapse" id="navbar-content">
+        <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+                <a href="index.html" class="nav-link">ACCUEIL</a>
+            </li>
+
+            <li class="nav-item">
+                <a href="index.html#menu" class="nav-link">MENU</a>
+            </li>
+            <li class="nav-item">
+                <a href="contact.html" class="nav-link">CONTACT</a>
+            </li>
+        </ul>
+    </nav>
+    </header>
+
+    <main class="container text-white">
+       <section class="row">
+         <div class="col-12 col-lg-6">
+          <h1 class="text-center mt-3">Nous contacter</h1>
+         </div>
+
+         <div class="col-12 col-lg-6">
+            <form>
+                <div class="mb-3">
+                  
+                  <input type="text" class="form-control mt-3" id="txtnomsprenoms" placeholder="Entrez vos noms & prénoms">
+                  
+                </div>
+                <div class="mb-3">
+                    <input type="email" class="form-control" id="email" placeholder="Entrez l'adresse mail">
+                    <div id="emailHelp" class="form-text">Nous ne partagerons pas votre adresse mail avec une tierce personne.</div>
+                  </div>
+                    <div>
+                        <label for="" class="form-label">Sexe</label>
+                    </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
+                    <label class="form-check-label" for="flexRadioDefault1">
+                      M
+                    </label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                    <label class="form-check-label" for="flexRadioDefault2">
+                      F
+                    </label>
+                  </div>
+                  <div>
+                    <label for="" class="form-label">Message</label>
+                  </div>
+                  <div class="input-group">
+                    <textarea class="form-control" aria-label="With textarea"></textarea>
+                  </div>
+                  <div class="button mt-3">
+                    <button type="submit" class="btn btn-primary">ENVOYER</button>
+                  </div>
+              </form>
+         </div>
+       </section>
+    </main>
+    <script src="js/bootstrap.min.js"></script> 
+</body>
+</html>
